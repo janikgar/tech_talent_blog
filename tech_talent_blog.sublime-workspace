@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementsByClassName"
+			],
+			[
+				"backgroudn",
+				"background-color\tproperty"
+			],
+			[
+				"serial",
+				"serial_number"
+			],
+			[
+				"quant",
+				"quantity"
+			],
+			[
+				"menu_",
+				"menu_add_product_to_category"
+			],
+			[
+				"menu_view",
+				"menu_view_product"
+			],
+			[
+				"curr",
+				"current_product"
+			],
+			[
+				"to",
+				"to_i"
+			],
+			[
+				"new",
+				"new"
+			],
+			[
+				"all_",
+				"all_products"
+			],
+			[
+				"get_",
+				"get_product_input"
+			],
+			[
+				"quantity",
+				"quantity_change"
+			],
+			[
+				"Product",
+				"ProductCategory"
+			],
+			[
+				"Produc",
+				"ProductCategory"
+			],
+			[
+				"Produ",
+				"ProductCategory"
+			],
+			[
+				"return",
+				"return_array"
+			],
+			[
+				"be",
+				"be_an_instance_of"
+			],
+			[
+				"new_",
+				"new_category_name"
+			],
+			[
+				"all",
+				"all_categories"
+			],
+			[
+				"he",
+				"heightCentimeters"
+			],
+			[
+				"favorit",
+				"favorite_food"
+			],
+			[
+				"age_",
+				"age_in_days"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 207,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"exit"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/sites/tts/tech_talent_blog",
+		"/C/sites/tts/tech_talent_blog/config"
+	],
+	"file_history":
+	[
+		"/C/Sites/tts/week_3/day_1/state_country/app/views/country/all_states.html.erb",
+		"/C/Sites/tts/week_3/day_1/state_country/app/views/country/top_five_pop.html.erb",
+		"/C/Sites/tts/week_3/day_1/state_country/app/views/country/top_five_area.html.erb",
+		"/C/Sites/TTS/week_3/furniture_store/config/initializers/assets.rb",
+		"/C/Sites/TTS/week_3/furniture_store/config/initializers/application_controller_renderer.rb",
+		"/C/Sites/TTS/week_3/furniture_store/config/environment.rb",
+		"/C/Sites/TTS/week_3/furniture_store/config/routes.rb",
+		"/C/Sites/TTS/week_3/db_explore/config/routes.rb",
+		"/C/Sites/tts/week_3/day_1/state_country/state_country.sublime-project",
+		"/C/Sites/TTS/Week-3/furniture_store/config/routes.rb",
+		"/C/Sites/TTS/rails-intro/adventures/app/views/states/index.html.erb",
+		"/C/Sites/TTS/rails-intro/adventures/app/views/activities/index.html.erb",
+		"/C/Sites/TTS/rails-intro/adventures/app/views/welcome/index.html.erb",
+		"/C/Sites/TTS/rails-intro/adventures/config/routes.rb",
+		"/C/Sites/TTS/rails-intro/adventures/db/migrate/20180706162331_create_activities.rb",
+		"/C/Sites/TTS/rails-intro/adventures/db/migrate/20180706162234_create_states.rb",
+		"/C/Sites/TTS/rails-intro/adventures/db/schema.rb",
+		"/C/Sites/TTS/rails-intro/pet_store/app/views/pets/index.html.erb",
+		"/C/Sites/TTS/rails-intro/pet_store/config/routes.rb",
+		"/C/Sites/TTS/rails-intro/pet_store/app/views/welcome/index.html.erb",
+		"/C/Sites/TTS/rails-intro/pet_store/app/views/welcome/about.html.erb",
+		"/C/Sites/TTS/rails-intro/pet_store/app/assets/stylesheets/welcome.scss",
+		"/C/Sites/TTS/rails-intro/rails_intro/config/routes.rb",
+		"/C/Sites/TTS/rails-intro/rails_intro/app/views/welcome/index.html.erb",
+		"/C/Sites/TTS/rails-intro/rails_intro/app/views/welcome/contact.html.erb",
+		"/C/Sites/TTS/rails-intro/rails_intro/app/views/welcome/about.html.erb",
+		"/C/Sites/TTS/rails-intro/rails_intro/Gemfile",
+		"/C/Sites/TTS/ruby-inspiration/sites.css",
+		"/C/Sites/TTS/ruby-inspiration/index.html",
+		"/C/Sites/TTS/Week-2/inventory/lib/inventory.rb",
+		"/C/Users/janik/AppData/Roaming/Sublime Text 3/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/C/Sites/TTS/Week-2/skills-check-13.rb",
+		"/C/Sites/TTS/Week-2/skills-check-12.rb",
+		"/C/Sites/TTS/Week-2/skills-check-11.rb",
+		"/C/Sites/TTS/Week-2/skills-check-10.rb",
+		"/C/Sites/TTS/Week-2/skills-check-09.rb",
+		"/C/Sites/TTS/Week-2/skills-check-08.rb",
+		"/C/Sites/TTS/Week-2/skills-check-06.rb",
+		"/C/Sites/TTS/Week-2/skills-check-05.rb",
+		"/C/Sites/TTS/Week-2/skills-check-04.rb",
+		"/C/Sites/TTS/Week-2/skills-check-03.rb",
+		"/C/Sites/TTS/Week-2/skills-check-02.rb",
+		"/C/Sites/TTS/Week-2/skills-check-01.rb",
+		"/C/Sites/TTS/Week-2/JavaScript/jQuery/rock-paper-scissors.css",
+		"/C/Sites/TTS/Week-2/JavaScript/jQuery/rock-paper-scissors.js",
+		"/C/Sites/TTS/Week-2/JavaScript/jQuery/rock-paper-scissors.html",
+		"/C/Sites/TTS/Week-2/JavaScript/rock-paper-scissors.css",
+		"/C/Sites/TTS/Week-2/JavaScript/rock-paper-scissors.js",
+		"/C/Sites/TTS/Week-2/JavaScript/rock-paper-scissors.html",
+		"/C/Sites/TTS/Week-1/Day-4/06-rps.rb",
+		"/C/Sites/TTS/Week-2/JavaScript/jQuery/index.html",
+		"/C/Sites/TTS/Week-2/JavaScript/madLib.js",
+		"/C/Sites/TTS/Week-2/inventory/spec/inventory_spec.rb",
+		"/C/Sites/TTS/Week-2/inventory/.rspec",
+		"/c/Sites/TTS/Week-2/inventory/inventory.rb",
+		"/C/Sites/TTS/Week-1/skills-check/arrays_hashes/07_meta_hash.rb",
+		"/C/Sites/TTS/Week-1/skills-check/arrays_hashes/06_meta_array.rb",
+		"/C/Sites/TTS/Week-1/skills-check/arrays_hashes/05_teams.rb",
+		"/C/Sites/TTS/Week-1/skills-check/arrays_hashes/04_ice_cream.rb",
+		"/C/Sites/TTS/Week-1/skills-check/arrays_hashes/03_array.rb",
+		"/C/Sites/TTS/Week-1/skills-check/arrays_hashes/02_hash.rb",
+		"/C/Sites/TTS/Week-1/skills-check/methods/03_musician.rb",
+		"/C/Sites/TTS/Week-1/skills-check/methods/02_band.rb",
+		"/C/Sites/TTS/Week-1/skills-check/methods/01_rock.rb",
+		"/C/Sites/TTS/Week-1/skills-check/control_flow/05_copycat.rb",
+		"/C/Sites/TTS/Week-1/skills-check/control_flow/03_fave_color.rb",
+		"/C/Sites/TTS/Week-1/skills-check/control_flow/04_bartender.rb",
+		"/C/Sites/TTS/Week-1/skills-check/control_flow/02_math_quiz.rb",
+		"/C/Sites/TTS/Week-1/skills-check/control_flow/01-names.rb",
+		"/C/Sites/TTS/Week-1/skills-check/10_fishes.rb",
+		"/C/Sites/TTS/Week-1/skills-check/09_countdown.rb",
+		"/C/Sites/TTS/Week-1/skills-check/05_neighborhoods.rb",
+		"/C/Sites/TTS/Week-1/skills-check/04-twoloops.rb",
+		"/C/Sites/TTS/Week-1/skills-check/03-array.rb",
+		"/C/Sites/TTS/Week-1/skills-check/02-trial.rb",
+		"/c/Sites/TTS/Week-1/skills-check/01-whatsup.rb",
+		"/C/RailsInstaller/scripts/config_check.rb",
+		"/C/Sites/TTS/Week-2/JavaScript/jQuery/style.css",
+		"/C/Sites/TTS/Week-2/JavaScript/jQuery/site.js",
+		"/C/RailsInstaller/Ruby2.3.3/setup_environment.bat",
+		"/C/Sites/TTS/Week-1/Day-4/07-fizzbuzz.rb",
+		"/C/Sites/TTS/Week-2/calculator/spec/calculator_spec.rb",
+		"/C/Sites/TTS/Week-2/JavaScript/imperial_to_metric_height.js",
+		"/C/Sites/TTS/Week-2/JavaScript/height_to_centimeters.js",
+		"/C/Sites/TTS/Week-2/JavaScript/conversion.html",
+		"/C/Sites/TTS/Week-1/Day-3-homework/03-numbers.rb",
+		"/C/Sites/TTS/Week-2/calculator/lib/calculator.rb",
+		"/C/Sites/TTS/Week-2/calculator/.rspec",
+		"/C/Sites/TTS/Week-2/calculator/lib/playground.rb",
+		"/C/Sites/TTS/Week-2/calculator/lib/calculator_spec.rb",
+		"/C/Sites/TTS/Week-2/02_classes.rb",
+		"/C/Sites/TTS/Week-2/01_classes.rb",
+		"/C/Sites/TTS/Week-2/class_vehicle.rb",
+		"/C/Sites/TTS/Week-2/class_vehicle",
+		"/C/Sites/TTS/Week-2/class_pet.rb",
+		"/C/Sites/TTS/Week-2/class_product.rb",
+		"/C/Sites/TTS/Week-2/class.rb",
+		"/C/Sites/TTS/Week-1/Day-5/03-quiz.rb",
+		"/C/Sites/TTS/Week-1/Day-5/03-quiz",
+		"/C/Sites/TTS/Week-1/Day-5/method-challenge.rb",
+		"/C/Sites/TTS/Week-1/Day-5/02-remainder.rb",
+		"/C/Sites/TTS/Week-1/Day-5/01-math-menu.rb",
+		"/C/Sites/TTS/Week-1/Day-5/arraytohash.rb",
+		"/C/Sites/TTS/Week-1/Day-5/reverse.rb",
+		"/C/Sites/TTS/Week-1/Day-5/tokilo.rb",
+		"/C/Sites/TTS/Week-1/Day-4/09-countries.rb",
+		"/C/Sites/TTS/Week-1/Day-4/08-scores.rb",
+		"/C/Sites/TTS/Week-1/Day-4/05-prime.rb",
+		"/C/Sites/TTS/Week-1/Day-4/04-pig.rb",
+		"/C/Sites/TTS/Week-1/Day-4/-",
+		"/C/Sites/TTS/Week-1/Day-4/03-spell.rb",
+		"/C/Sites/TTS/Week-1/Day-4/02-divisible.rb",
+		"/C/Sites/TTS/Week-1/Day-4/01-grades.rb",
+		"/C/Sites/TTS/Week-1/hash-each.rb",
+		"/C/Sites/TTS/Week-1/array-each.rb",
+		"/C/Sites/TTS/Week-1/array-each2.rb",
+		"/C/Sites/TTS/Week-1/while-loop2.rb",
+		"/C/Sites/TTS/Week-1/while-loop.rb",
+		"/C/Sites/TTS/Week-1/until-loop.rb",
+		"/C/Sites/TTS/Week-1/until-loop2.rb",
+		"/C/Sites/TTS/Week-1/until-loop3.rb",
+		"/C/Sites/TTS/Week-1/timesquare.rb",
+		"/C/Sites/TTS/Week-1/train.rb",
+		"/C/Sites/TTS/Week-1/dogcat.rb",
+		"/C/Sites/TTS/Week-1/Day-3-homework/07-madlibs.rb",
+		"/C/Sites/TTS/Week-1/Day-3-homework/06-age.rb",
+		"/C/Sites/TTS/Week-1/Day-3-homework/05-tip.rb",
+		"/C/Sites/TTS/Week-1/Day-3-homework/04-stringsearch.rb"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 218.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Ruby/Ruby.sublime-build",
+	"project": "tech_talent_blog.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
