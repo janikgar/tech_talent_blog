@@ -100,10 +100,20 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "app/views/posts/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 712,
+				"buffer_size": 1014,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/posts/show.html.erb",
+			"settings":
+			{
+				"buffer_size": 879,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -147,10 +157,16 @@
 	"expanded_folders":
 	[
 		"/C/sites/tts/tech_talent_blog",
-		"/C/sites/tts/tech_talent_blog/app"
+		"/C/sites/tts/tech_talent_blog/app",
+		"/C/sites/tts/tech_talent_blog/app/views",
+		"/C/sites/tts/tech_talent_blog/app/views/comments",
+		"/C/sites/tts/tech_talent_blog/app/views/posts"
 	],
 	"file_history":
 	[
+		"/C/sites/tts/tech_talent_blog/config/application.rb",
+		"/C/sites/tts/tech_talent_blog/app/assets/stylesheets/posts.scss",
+		"/C/sites/tts/tech_talent_blog/app/views/layouts/application.html.erb",
 		"/C/sites/tts/tech_talent_blog/app/views/comments/_form.html.erb",
 		"/C/sites/tts/tech_talent_blog/app/views/posts/show.html.erb",
 		"/C/sites/tts/tech_talent_blog/.gitignore",
@@ -160,7 +176,6 @@
 		"/C/sites/tts/tech_talent_blog/app/models/comment.rb",
 		"/C/sites/tts/tech_talent_blog/app/models/post.rb",
 		"/C/sites/tts/tech_talent_blog/app/views/posts/index.html.erb",
-		"/C/sites/tts/tech_talent_blog/app/views/layouts/application.html.erb",
 		"/C/sites/tts/tech_talent_blog/app/assets/javascripts/application.js",
 		"/C/sites/tts/tech_talent_blog/app/assets/stylesheets/application.css.scss",
 		"/C/sites/tts/tech_talent_blog/Gemfile",
@@ -276,9 +291,7 @@
 		"/C/Sites/TTS/Week-1/Day-4/09-countries.rb",
 		"/C/Sites/TTS/Week-1/Day-4/08-scores.rb",
 		"/C/Sites/TTS/Week-1/Day-4/05-prime.rb",
-		"/C/Sites/TTS/Week-1/Day-4/04-pig.rb",
-		"/C/Sites/TTS/Week-1/Day-4/-",
-		"/C/Sites/TTS/Week-1/Day-4/03-spell.rb"
+		"/C/Sites/TTS/Week-1/Day-4/04-pig.rb"
 	],
 	"find":
 	{
@@ -331,30 +344,61 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": true,
+					"file": "app/views/posts/index.html.erb",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 712,
+						"buffer_size": 1014,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								813,
+								813
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 270.4,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/posts/show.html.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								833
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -441,7 +485,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 306.0,
+	"side_bar_width": 161.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
