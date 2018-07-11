@@ -17,6 +17,18 @@
         <%= form.hidden_field :user_id, value: current_user.id %>
         <%= form.text_field :title, placeholder: "Post Title", class: "form-control" %>
         <%= form.text_area :blog_entry, placeholder: "Type here...", class: "form-control" %>
+          <% if post.picture.url != nil %>
+            <div class="well">
+              <%= render 'with_picture', :post => post %>
+              <a href="#" class="btn btn-warning">Replace</a>
+              <a href="#" class="btn btn-danger">Remove</a>
+            </div>
+          <% else %>
+          <div class="form-group">
+            <strong>Add a picture:</strong>
+            <%= form.file_field :picture, class: "form-control" %>
+          </div>
+          <% end %>
         <%= form.submit class: "btn btn-primary"%>
       </div>
     </div>

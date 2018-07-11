@@ -16,3 +16,24 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.avatar-frame {
+	display: block;
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: 4px solid lightgray;
+	border-radius: 4px;
+}
+
+.picture-frame {
+	display: block;
+	margin: auto;
+	/*max-height: 400px;*/
+	max-width: 400px;
+	width: auto;
+	border: 4px solid lightgray;
+	border-radius: 4px;
+}

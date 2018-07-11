@@ -3,13 +3,14 @@
 <div class="panel panel-default">
 	<div class="panel-heading">
   		<h2><%= @post.title %></h2>
-		<p><%= image_tag @post.user.avatar.url if @post.user.avatar.url != nil %></p>
+        <%= render 'post_avatar', :post => @post %>
   		<strong> by: <%= @post.user.username %></strong>
 		<% @create_time = @post.created_at.in_time_zone("America/Chicago") %>
         <p><%= @create_time.strftime("Posted %m/%d/%Y at %l:%M%P %Z") %></p>
 	</div>
 	<div class="panel-body">
   		<%= @post.blog_entry %>
+  		<%= render 'with_picture', :post => @post %>
 	</div>
 	<div class="panel-footer">
 		<%= link_to 'Edit', edit_post_path(@post), class: "btn btn-primary" %>
