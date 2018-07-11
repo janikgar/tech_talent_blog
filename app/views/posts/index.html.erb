@@ -5,18 +5,22 @@
 <div class="container-fluid">
   <div class="row">
     <% @posts.each do |post| %>
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2><%= post.title %></h2>
-        <strong> by <%= post.author %></strong>
-      </div>
-      <div class="panel-body">
-        <%= post.blog_entry %>
-      </div>
-      <div class="panel-footer">
-        <%= link_to 'Show', post, :class => "btn btn-primary" %>
-        <%= link_to 'Edit', edit_post_path(post), :class => "btn btn-warning" %>
-        <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %>
+    <div class="col-xs-12 col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2><%= post.title %></h2>
+          <strong> by <%= post.author %></strong>
+          <% @create_time = post.created_at.in_time_zone("America/Chicago") %>
+          <p><%= @create_time.strftime("Posted %m/%d/%Y at %l:%M%P %Z") %></p>
+        </div>
+        <div class="panel-body">
+          <%= post.blog_entry %>
+        </div>
+        <div class="panel-footer">
+          <%= link_to 'Show', post, :class => "btn btn-primary" %>
+          <%= link_to 'Edit', edit_post_path(post), :class => "btn btn-warning" %>
+          <%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger" %>
+        </div>
       </div>
     </div>
   <% end %>
