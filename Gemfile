@@ -55,8 +55,12 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+# User Gems
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'devise' # User Authentication
 gem 'gravatarify', '~> 3.0.0' # Gravatar
 gem 'carrierwave', '~> 1.0' # Upload photos
+gem 'kaminari' #Pagination

@@ -1,32 +1,12 @@
 <p id="notice"><%= notice %></p>
 
-<div class="panel panel-default">
-	<div class="panel-heading">
-  		<h2><%= @post.title %></h2>
-        <%= render 'post_avatar', :post => @post %>
-  		<strong> by: <%= @post.user.username %></strong>
-		<% @create_time = @post.created_at.in_time_zone("America/Chicago") %>
-        <p><%= @create_time.strftime("Posted %m/%d/%Y at %l:%M%P %Z") %></p>
-	</div>
-	<div class="panel-body">
-  		<%= @post.blog_entry %>
-  		<%= render 'with_picture', :post => @post %>
-	</div>
-	<div class="panel-footer">
-		<%= link_to 'Edit', edit_post_path(@post), class: "btn btn-primary" %>
-		<%= link_to 'Back', posts_path, class: "btn btn-default" %>
-	</div>
-</div>
+
+<%= render 'show_post', :post => @post %>
 <div class="container">
 	<div class="well">
 		<%= render 'comments/form', comment: @comment %>	
 	</div>
 	<% @post.comments.each do |comment| %>
-		<div class="well">
-			<p><em>Comment by <strong><%= comment.user.username %></strong></em></p>
-			<% @created_at = comment.created_at.in_time_zone("America/Chicago") %>
-			<p><em><%= @created_at.strftime("Posted on %m/%d/%Y at %l:%M%p %Z") %></em></p>
-			<p><%= comment.comment_entry %></p>
-		</div>
+		<%= render 'show_comment', comment: comment %>
 	<% end %>
 </div>

@@ -3,7 +3,5 @@ Rails.application.routes.draw do
   resources :comments
   resources :posts
   root 'posts#index'
-  # get 'index' => 'practice#index'
-  # get 'about' => 'practice#about'
-  # post 'index' => 'practice#index'
+  get '/:name' => 'posts#user_posts', as: :user_posts
 end

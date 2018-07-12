@@ -1,0 +1,7 @@
+<div class="well">
+	<%= render 'post_avatar', post: comment %>
+	<p><em>Comment by <%= link_to comment.user.username, user_posts_path(name: comment.user.username) %></em></p>
+	<% @created_at = comment.created_at.in_time_zone("America/Chicago") %>
+	<p><em><%= @created_at.strftime("Posted on %m/%d/%Y at %l:%M%p %Z") %></em></p>
+	<p><%= comment.comment_entry %></p>
+</div>
